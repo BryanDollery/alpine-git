@@ -17,4 +17,4 @@ You can edit the `.gitconfig` I've provided here then copy it to your home direc
   git config --global user.email ""
 ```
 
-using with appropriate values in the quotes.
+with appropriate values in the quotes.
