@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+function git {
+    docker run -it --rm \
+               -w /root/work \
+               -v ~/.ssh:/root/.ssh \
+               -v /`pwd`:/root/work bryandollery/alpine-git git \
+               -c   "user.email=$(grep email   ~/.gitconfig | cut -d '=' -f2 | xargs)" \
+               -c    "user.name=$(grep name    ~/.gitconfig | cut -d '=' -f2 | xargs)" \
+               -c "push.default=$(grep default ~/.gitconfig | cut -d '=' -f2 | xargs)" \
+               "$@"
+} 
+
+
