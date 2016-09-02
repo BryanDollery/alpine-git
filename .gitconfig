@@ -1,0 +1,5 @@
+[user]
+	email = dummy@dummy.com
+	name = Dummy
+[push]
+	default = simple
