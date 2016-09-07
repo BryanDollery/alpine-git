@@ -1,3 +1,6 @@
+[![](https://images.microbadger.com/badges/image/bryandollery/alpine-git.svg)](http://microbadger.com/images/bryandollery/alpine-git "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/bryandollery/alpine-git.svg)](http://microbadger.com/images/bryandollery/alpine-git "Get your own version badge on microbadger.com")
+
 Basic git image based on basic alpine, with bash and ssh in support.
 
 Usage:
